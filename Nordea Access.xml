@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-
-<Bundle    name="Nordea Access" type="organizational">
-  <Description>This organisational role contains all the role pertaining to active directory</Description>
-  <Owner>
-    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
-  </Owner>
-</Bundle>
