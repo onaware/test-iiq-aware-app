@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Bundle    name="Investment Bank" type="organizational">
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <RoleIndex  />
+  <RoleScorecard   permittedEntitlements="3"/>
+</Bundle>
