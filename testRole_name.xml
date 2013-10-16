@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle name="testRole" type="it">
+  <Attributes>
+    <Map>
+      <entry key="mergeTemplates" value="false"/>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile name="newProfile">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="QAONEADR"/>
+      </ApplicationRef>
+    </Profile>
+  </Profiles>
+</Bundle>
