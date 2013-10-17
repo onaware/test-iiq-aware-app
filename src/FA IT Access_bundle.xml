@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <Bundle    name="FA IT Access" type="it">
+  <Attributes>
+    <Map>
+      <entry key="mergeTemplates" value="false"/>
+    </Map>
+  </Attributes>
+  <Description>change description&lt;br></Description>
   <Inheritance>
     <Reference class="sailpoint.object.Bundle"  name="IT"/>
   </Inheritance>
@@ -8,7 +14,7 @@
     <Reference class="sailpoint.object.Identity"  name="spadmin"/>
   </Owner>
   <Profiles>
-    <Profile   name="Entitlements - Front Arena">
+    <Profile    name="Entitlements - Front Arena">
       <ApplicationRef>
         <Reference class="sailpoint.object.Application"  name="Front Arena"/>
       </ApplicationRef>
