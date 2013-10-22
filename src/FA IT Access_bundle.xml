@@ -6,7 +6,7 @@
       <entry key="mergeTemplates" value="false"/>
     </Map>
   </Attributes>
-  <Description>change description&lt;br></Description>
+  <Description>new descr&lt;br></Description>
   <Inheritance>
     <Reference class="sailpoint.object.Bundle"  name="IT"/>
   </Inheritance>
