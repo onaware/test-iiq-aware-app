@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle  displayName="IT Test Role 2"   name="IT TEST ROLE 2" type="it">
+  <Attributes>
+    <Map>
+      <entry key="mergeTemplates" value="false"/>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <RoleIndex   />
+  <RoleScorecard   />
+</Bundle>
