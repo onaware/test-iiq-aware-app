@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle    name="Remote Access Putty" type="it">
+  <Attributes>
+    <Map>
+      <entry key="mergeTemplates" value="false"/>
+    </Map>
+  </Attributes>
+  <Description>Remote access to Putty move to iiqbus</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Nordea Access"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="G20527"/>
+  </Owner>
+  <Profiles>
+    <Profile    name="ONEADR">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="ONEADR"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+          <Value>
+            <List>
+              <String>CN=RAP_RAS_Putty,OU=CMCC Remote Access,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>
