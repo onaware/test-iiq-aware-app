@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle   name="Local Administrator VDI" type="it">
+  <Description>This role gives the user ability to install programs on their VDI.</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Nordea Access"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile   name="ONEADR">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="ONEADR"/>
+      </ApplicationRef>
+      <Constraints>
+        <CompositeFilter operation="OR">
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=sec-CMCC-DKCMHV000087 Local admin,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=sec-CMCC-DKCMHV000118 Local Admin,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=sec-CMCC-DKCMHV000120 Local Admin,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=sec-CMCC-DKCMHV000119 Local Admin,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=sec-CMCC-DKCMHV000112 Local Admin,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=sec-CMCC-DKCMHV000106 Local Admin,OU=DKD1,OU=Migrated Groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=sec-CMCC-DKCMHV000133 Local Admin,OU=DKD1,OU=Migrated Groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+        </CompositeFilter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>

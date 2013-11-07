@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle    name="Front Office" riskScoreWeight="400" type="it">
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Investment Bank"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <RoleIndex  />
+  <RoleScorecard   permittedEntitlements="3"/>
+</Bundle>

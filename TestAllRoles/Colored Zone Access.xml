@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle    name="Colored Zone Access" type="it">
+  <Attributes>
+    <Map>
+      <entry key="mergeTemplates" value="false"/>
+    </Map>
+  </Attributes>
+  <Description>Jump access to CMZ0 Citrix servers.</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Nordea Access"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="ITSS DK"/>
+  </Owner>
+  <Profiles>
+    <Profile    name="ONEADR">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="ONEADR"/>
+      </ApplicationRef>
+      <Constraints>
+        <CompositeFilter operation="OR">
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=CAP_Jump_NetworkUtils,OU=CMCC Citrix groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=CAP_Jump_NetworkTeam,OU=CMCC Citrix groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=CAP_Jump_VmWare_DMZ,OU=CMCC Citrix groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=CAP_Jump_Desktop,OU=CMCC Citrix groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=CAP_Jump_DMZ,OU=CMCC Citrix groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=CAP_Jump_ServerUtils,OU=CMCC Citrix groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=CAP_Jump_VmWare,OU=CMCC Citrix groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+        </CompositeFilter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>

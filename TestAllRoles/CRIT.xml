@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle    name="CRIT" type="it">
+  <Attributes>
+    <Map>
+      <entry key="mergeTemplates" value="false"/>
+    </Map>
+  </Attributes>
+  <Description>CRIT Team role mined from Nordea Oracle database</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Nordea Teams"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="ITSS DK"/>
+  </Owner>
+  <Profiles>
+    <Profile    name="CRIT">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="Oracle TWD"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="ROLES">
+          <Value>
+            <List>
+              <String>RL_CRIT_TEAM</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+  <RoleIndex  detectedCount="3" entitlementCount="2" entitlementCountInheritance="2"  />
+</Bundle>

@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle   name="Remote Desktop logon between locations" type="it">
+  <Description>Remote desktop access to desktop placed in Nordea</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Nordea Access"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile   name="ONEADR">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="ONEADR"/>
+      </ApplicationRef>
+      <Constraints>
+        <CompositeFilter operation="OR">
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10489912 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS1412325 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9327386 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15335977 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15335650 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9306289 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10828955 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10254671 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10252262 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9559950 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15336112 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10482595 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS1410929 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10485314 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10487367 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS1412587 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10654857 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10498631 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15330419 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9303067 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15335663 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15335634 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9307157 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9558605 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9307283 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9564408 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS1279584 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10829420 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10655526 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10489938 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9325715 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10920251 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10920413 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10487118 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10829585 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9213319 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15331968 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS1412710 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS10828560 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15338107 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15336167 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15336206 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS9303177 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15336125 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS15336471 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWS1412671 RDP,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+        </CompositeFilter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>

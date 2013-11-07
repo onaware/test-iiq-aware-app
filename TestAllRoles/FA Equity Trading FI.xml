@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle   name="FA Equity Trading FI" type="it">
+  <Description>Equity Trading Finnish users access to Front Arena</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Trading"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile   name="Entitlements - Front Arena">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="Front Arena"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="EQ" property="grpid" value="EqTraFI"/>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>

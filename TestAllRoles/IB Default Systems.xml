@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle   name="IB Default Systems" type="it">
+  <Description>Role which holds default IT access for all IB users</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="IB Default"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+</Bundle>

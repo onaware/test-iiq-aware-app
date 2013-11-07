@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle   name="DB Sales Dev" type="it">
+  <Description>Dev sales role mined from Nordea Oracle database</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="DB Sales"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile   name="DB Sales Dev">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="Oracle TWD"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="ROLES">
+          <Value>
+            <List>
+              <String>RL_SALESDEV_TEAM</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+  <RoleIndex  detectedCount="2" entitlementCount="1" entitlementCountInheritance="2"  />
+</Bundle>

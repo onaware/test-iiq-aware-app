@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle   name="FA IT Access" type="it">
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="IT"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile   name="Entitlements - Front Arena">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="Front Arena"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter ignoreCase="true" operation="IN" property="grpid">
+          <Value>
+            <List>
+              <String>ITSysUsersADM</String>
+              <String>ITSysUsersCOM</String>
+              <String>ITSysUsersNWM</String>
+              <String>ITSysAdmin</String>
+              <String>ITeXternals</String>
+              <String>ITSysOthersADM</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>

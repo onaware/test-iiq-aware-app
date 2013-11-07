@@ -1,0 +1,1632 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle   name="Local Administrator Laptop" type="it">
+  <Description>This role gives the user ability to install programs on their Laptop.</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Nordea Access"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile   name="ONEADR">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="ONEADR"/>
+      </ApplicationRef>
+      <Constraints>
+        <CompositeFilter operation="OR">
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15341822 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15326436 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15328890 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15326478 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537628 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10745711 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10745779 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10745287 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10745575 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10745384 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10745724 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10745850 Local admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218405 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218285 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218188 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218175 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218120 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218065 Local admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218052 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218036 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218023 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15217998 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15217972 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15217901 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15217859 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15216258 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15213989 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15213976 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15211567 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15209171 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15209016 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15208907 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15208839 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15208088 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1478204 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10747366 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1475948 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477687 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1474826 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1474703 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477881 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1478657 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1475375 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1476950 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1478589 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1476714 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477629 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10747573 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1475692 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1476594 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10747858 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477933 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1478741 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1476303 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1478945 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15208101 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1476471 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477496 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15208703 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477904 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1474664 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1476581 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15208091 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477593 Local Admins,OU=Groups connected with G14143 (CMS TEST),OU=DKD1,OU=Migrated Groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477483 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1478563 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1474910 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1478152 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10747379 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477548 Local admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1476028 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538193 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538180 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538407 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15328696 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10539927 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10662959 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538342 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15328609 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15228181 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15328722 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538588 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538397 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10546570 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218502 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538177 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10660757 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538203 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218560 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538122 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538164 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10660469 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538083 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10660346 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538384 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15321774 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218418 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10662564 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538119 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538096 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15326025 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15321884 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538261 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538216 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538229 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15328764 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15218667 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10539930 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538148 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10660087 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10662810 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10650589 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15325806 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538232 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15230137 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM9213102 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15221117 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538410 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538070 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15236630 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15221793 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15325932 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15321732 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10660566 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10662865 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538025 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538041 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10663291 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10663013 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10663330 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10743687 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10742138 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10739471 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10739468 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10739455 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10739015 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10738414 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10738388 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10737211 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10737169 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10737156 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10737130 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10737127 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10737114 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10737101 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10737091 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10737088 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10734036 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10732339 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10732245 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10731657 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10731220 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10731217 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10695997 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10692521 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10691700 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10689589 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10688247 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10686375 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10686320 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10686252 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10684681 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10684542 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10684487 Local admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10684403 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10684380 Local admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10684351 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10684348 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10684157 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10683844 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10681325 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10681299 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10681244 Local admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10681053 Local admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10664203 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10663411 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10533936 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10533020 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10518249 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10527201 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10525533 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10499711 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10498343 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10535358 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10527243 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10527450 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10518171 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10497328 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10498479 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10528271 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10517347 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10509630 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10532173 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10499944 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538038 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537709 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537990 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537725 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538009 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537712 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537686 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10536755 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537974 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537783 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537893 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10536878 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537738 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537699 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537770 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537932 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537945 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538546 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1477043 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15326287 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15213950 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15211619 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10970353 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15208059 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15290106 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10685871 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15346160 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15336552 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10684539 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10538494 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM10537767 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15349293 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15349219 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15213808 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM1478835 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+          <Filter ignoreCase="true" operation="CONTAINS_ALL" property="memberOf">
+            <Value>
+              <List>
+                <String>CN=SL DKCMWM15329019 Local Admins,OU=CMCC Client Access groups,OU=Groups,OU=CMCC,OU=_CORP,DC=oneadr,DC=net</String>
+              </List>
+            </Value>
+          </Filter>
+        </CompositeFilter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>

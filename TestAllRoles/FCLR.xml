@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle   name="FCLR" type="it">
+  <Description>Nordea FCLR team role mined from Nordea Oracle database</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Nordea Teams"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <Profiles>
+    <Profile   name="Nordea Team FCLR">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application"  name="Oracle TWD"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="ROLES">
+          <Value>
+            <List>
+              <String>RL_FCLR_TEAM</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+  <RoleIndex  detectedCount="7" entitlementCount="2" entitlementCountInheritance="2"  />
+</Bundle>

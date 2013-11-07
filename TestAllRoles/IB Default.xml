@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle    name="IB Default" type="business">
+  <Description>Default access rights for all users within the Investment Bank</Description>
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Investment Bank"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <RoleScorecard  />
+</Bundle>
