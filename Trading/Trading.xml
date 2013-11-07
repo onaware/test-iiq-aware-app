@@ -1,11 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Bundle   name="Trading" type="business">
+<Bundle    name="Trading" type="business">
+  <Attributes>
+    <Map>
+      <entry key="mergeTemplates" value="false"/>
+    </Map>
+  </Attributes>
   <Inheritance>
     <Reference class="sailpoint.object.Bundle"  name="Front Office"/>
   </Inheritance>
   <Owner>
-    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+    <Reference class="sailpoint.object.Identity"  name="ITSS DK"/>
   </Owner>
   <RoleIndex   />
   <RoleScorecard   />
