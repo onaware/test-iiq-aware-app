@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Bundle    name="CRIT" type="it">
+<Bundle    name="CRIT" type="business">
   <Attributes>
     <Map>
       <entry key="mergeTemplates" value="false"/>
@@ -14,7 +14,7 @@
     <Reference class="sailpoint.object.Identity"  name="ITSS DK"/>
   </Owner>
   <Profiles>
-    <Profile   name="CRIT">
+    <Profile    name="CRIT">
       <ApplicationRef>
         <Reference class="sailpoint.object.Application"  name="Oracle TWD"/>
       </ApplicationRef>
@@ -29,5 +29,5 @@
       </Constraints>
     </Profile>
   </Profiles>
-  <RoleIndex  detectedCount="3" entitlementCount="2" entitlementCountInheritance="2" />
+  <RoleIndex  detectedCount="3" entitlementCount="2" entitlementCountInheritance="2"  />
 </Bundle>
