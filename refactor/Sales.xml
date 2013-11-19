@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Bundle PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Bundle    name="Sales" type="business">
+  <Inheritance>
+    <Reference class="sailpoint.object.Bundle"  name="Front Office"/>
+  </Inheritance>
+  <Owner>
+    <Reference class="sailpoint.object.Identity"  name="spadmin"/>
+  </Owner>
+  <Permits>
+    <Reference class="sailpoint.object.Bundle"  name="FA Equity Sales FI"/>
+    <Reference class="sailpoint.object.Bundle"  name="FA Equity Sales DK"/>
+    <Reference class="sailpoint.object.Bundle"  name="FA Equity Sales SE"/>
+  </Permits>
+  <RoleIndex  />
+  <RoleScorecard   permittedEntitlements="3"/>
+</Bundle>
