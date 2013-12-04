@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE LocalizedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<LocalizedAttribute attribute="description"   locale="en_US" name="RACF Special User - SWE : description : en_US" targetClass="Bundle" targetId="2c90abc742b3deee0142b3df6c570009" targetName="RACF Special User - SWE" value="RACF Special Administrator User - SWE"/>
