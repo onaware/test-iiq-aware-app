@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE LocalizedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<LocalizedAttribute attribute="description"   locale="en_US" name="Local Administrator Laptop : description : en_US" targetClass="Bundle" targetId="ff80818142940f2a01429410280000d7" targetName="Local Administrator Laptop" value="This role gives the user ability to install programs on their Laptop."/>
