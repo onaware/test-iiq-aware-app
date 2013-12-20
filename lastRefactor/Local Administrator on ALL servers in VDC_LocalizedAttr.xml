@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE LocalizedAttribute PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<LocalizedAttribute attribute="description"   locale="en_US" name="Local Administrator on ALL servers in VDC : description : en_US" targetClass="Bundle" targetId="ff80818142940f2a01429410237500bb" targetName="Local Administrator on ALL servers in VDC" value="This role gives the user full administrative rights to all servers in Datacenter Valhalla in ONEADR domain"/>
